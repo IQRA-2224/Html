@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM OUTPUT</title>
+    <head >
+    </head>
+    <body>
+        <h1>FORM OUTPUT</h1> 
+        <span id="output"></span>
+      <script>
+        var data = window.location.search
+       var params = new URLSearchParams(data)
+       console.log(params)
+
+       var fname= params.get('first_name')
+       var sname= params.get('sur_name')
+       var email= params.get('numb')
+       var password= params.get('passw')
+
+       var get_data="First name: " + fname + "<br> " + "Surname:" + sname + "<br>" + "Email or Password" + email +  "<br> " + "Password" + password + "<br>" 
+
+        document.getElementById("output").value = get_data
+      </script>
+
+   
+</body>
+</html>

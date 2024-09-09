@@ -1,0 +1,37 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.container
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+}
+.container .email-signature {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: o 2px 5px #000;
+    padding: 10px 40px;
+
+}
+.container .email-signature.image{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px soli #fff;
+    box-shadow: 0 0 5px #333 ;
+
+
+
+} */

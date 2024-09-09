@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook singup page</title>
+    <link rel="stylesheet" href="../css/facebook signup.css">
+    <script >
+    
+
+// function takevalue()
+//    { 
+// var fname=document.getElementById("name1").value;
+// localStorage.setItem("name1", fname)
+// var sname=document.getElementById("name2").value;
+// localStorage.setItem("name2", sname)
+
+// var num1=document.getElementById("num1").value;
+//  localStorage.setItem("EMAIL", num1)
+// var num2=document.getElementById("num2").value;
+// localStorage.setItem("PASSW", num2)
+// var date=document.getElementById("date").value;
+// localStorage.setItem("DATE", date)
+// var month=document.getElementById("month").value;
+// localStorage.setItem("MONTH",month)
+// var year=document.getElementById("year").value;
+//  localStorage.setItem("YEAR", year)
+// var gender=document.getElementById("gender_label").value;
+
+// document.writeln("First name: " + fname + "<br>")
+// document.writeln("Surname: " + sname + "<br>")
+// document.writeln("Email or Mobile no: " + num1 + "<br>")
+// document.writeln("Password:" + num2 + "<br>")
+// document.writeln("Date:" + date + "<br>")
+// document.writeln("Month:" + month + "<br>")
+// document.writeln("Year:" + year + "<br>")
+// document.writeln("Gender:" + gender + "<br>")
+
+// }
+        
+    </script>  
+</head>
+<body>
+    <div class="main">
+        <form  action="../roots/form output.html" method="get">
+        <h2 class="first_title">Sign Up</h2>
+        <p class="first_sub_title">It's quick and easy.</p>
+        <hr> 
+        <!-- INPUT -->
+         <div class="input">
+            <input type="text"  placeholder="First name"
+            class="name" id="name1" name="first_name" required>
+            <input type="text" name="sur_name" placeholder="Surname" class="name" id="name2" required>
+            <input  type="email or tel" name="numb"placeholder="Mobile number or email address" id="num1"  class="num" required><br>
+            <input type="password" name="passw" placeholder="New password" id="num2" class="num" required>
+            <br>
+        </div>
+         <!-- INPUT END -->
+              
+         <!-- DOB -->
+          <p class="sub_title_2">Date of birth</p>
+          <select id="date">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+
+
+
+
+        </select>
+
+        <select id="month">
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+            <option>Jun</option>
+            <option>Jul</option>
+            <option>Aug</option>
+            <option>Sep</option>
+            <option>Oct</option>
+            <option>Nov</option>
+            <option>Dec</option>
+          </select>
+
+          <select id="year">
+            <option>2024</option>
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+            <option>2013</option>
+            <option>2012</option>
+            <option>2011</option>
+            <option>2010</option>
+            <option>2009</option>
+            <option>2008</option>
+            <option>2007</option>
+            <option>2006</option>
+            <option>2005</option>
+            <option>2004</option>
+            <option>2003</option>
+            <option>2002</option>
+            <option>2001</option>
+            <option>2000</option>
+            <option>1999</option>
+            <option>1998</option>
+            <option>1997</option>
+            <option>1996</option>
+            <option>1995</option>
+            <option>1994</option>
+            <option>1993</option>
+            <option>1992</option>
+            <option>1991</option>
+            <option>1990</option>
+            <option>1989</option>
+            <option>1988</option>
+            <option>1987</option>
+            <option>1986</option>
+            <option>1985</option>
+            <option>1984</option>
+            <option>1983</option>
+            <option>1982</option>
+            <option>1981</option>
+            <option>1980</option>
+         </select>
+         <!-- DOB END -->
+
+         <!-- GENDER -->
+         <p class="sub_title_3">Gender</p>
+         <div class="female" id="all_gender">
+            <label for="female" id="gender_label">Female</label>
+            <input type="radio" name="gender" value="female">
+         </div>
+         <div class="male" id="all_gender">
+            <label for="male" id="gender_label_male" >Male</label>
+            <input type="radio" name="gender" value="male">
+         </div>
+         <div class="other" id="all_gender">
+            <label for="other" id="gender_label">Custom</label>
+            <input type="radio" name="gender" value="other">
+        </div>
+         <!-- GENDER END -->
+         <p class="sub_title_4" >People who use our service may have uploaded your contact information to<br> Facebook. <a href="#" >Learn more.</a><br><br>
+
+            By clicking Sign Up, you agree to our<a href="#">Terms, Privacy Policy</a> and<a href="#" > Cookies Policy. </a> <br>You may receive SMS notifications from us and can opt out at any time.</p>
+
+            <!-- FOR SUBMIT -->
+           
+
+                <input  type="submit" value="Sing Up" class="submit" >
+        
+                 <!-- END SUBMIT -->
+                
+
+                   <!-- <button type="button"  class="submit" >Sign Up</button>  -->
+            
+                  
+        </form>
+    </div>
+    
+</body>
+</html>
